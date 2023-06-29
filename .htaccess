@@ -1,0 +1,14 @@
+<If "%{REQUEST_FILENAME} =~ m#admin.php#">   
+    AuthType Basic
+    AuthName "Restricted"
+    AuthUserFile "/volume1/web/wordpress/ms/.htpasswd"
+    Require valid-user
+</If> 
+<If "%{REQUEST_FILENAME} =~ m#add_team.php#">   
+    AuthType Basic
+    AuthName "Restricted"
+    AuthUserFile "/volume1/web/wordpress/ms/.htpasswd"
+    Require valid-user
+</If> 
+
+

@@ -1,0 +1,6 @@
+otpauth://hotp/crocs@muni.cz?secret=GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ
+http://xms.setkani.org/ms/auth.php?login=Aiosa&key=
+
+
+otpauth://hotp/?secret=GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ&digits=6
+http://xms.setkani.org/ms/auth.php?login=Aiosa&key=
